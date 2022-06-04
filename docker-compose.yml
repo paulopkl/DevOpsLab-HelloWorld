@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+  python-3-6:
+    container_name: python-3-6
+    build: .
+    ports:
+      - "5000:5000"
